@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACB179D41F1839A700BC3EAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB179D31F1839A700BC3EAE /* AppDelegate.swift */; };
+		ACB179D61F1839A700BC3EAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB179D51F1839A700BC3EAE /* ViewController.swift */; };
+		ACB179D91F1839A700BC3EAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB179D71F1839A700BC3EAE /* Main.storyboard */; };
+		ACB179DB1F1839A700BC3EAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACB179DA1F1839A700BC3EAE /* Assets.xcassets */; };
+		ACB179DE1F1839A700BC3EAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB179DC1F1839A700BC3EAE /* LaunchScreen.storyboard */; };
+		ACB179E91F1839A800BC3EAE /* QuotieAaron2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB179E81F1839A800BC3EAE /* QuotieAaron2Tests.swift */; };
+		ACB179F41F1839A800BC3EAE /* QuotieAaron2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB179F31F1839A800BC3EAE /* QuotieAaron2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACB179E51F1839A800BC3EAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACB179C81F1839A700BC3EAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACB179CF1F1839A700BC3EAE;
+			remoteInfo = QuotieAaron2;
+		};
+		ACB179F01F1839A800BC3EAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACB179C81F1839A700BC3EAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACB179CF1F1839A700BC3EAE;
+			remoteInfo = QuotieAaron2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACB179D01F1839A700BC3EAE /* QuotieAaron2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuotieAaron2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACB179D31F1839A700BC3EAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACB179D51F1839A700BC3EAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACB179D81F1839A700BC3EAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACB179DA1F1839A700BC3EAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACB179DD1F1839A700BC3EAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACB179DF1F1839A800BC3EAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACB179E41F1839A800BC3EAE /* QuotieAaron2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuotieAaron2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACB179E81F1839A800BC3EAE /* QuotieAaron2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotieAaron2Tests.swift; sourceTree = "<group>"; };
+		ACB179EA1F1839A800BC3EAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACB179EF1F1839A800BC3EAE /* QuotieAaron2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuotieAaron2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACB179F31F1839A800BC3EAE /* QuotieAaron2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotieAaron2UITests.swift; sourceTree = "<group>"; };
+		ACB179F51F1839A800BC3EAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACB179CD1F1839A700BC3EAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACB179E11F1839A800BC3EAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACB179EC1F1839A800BC3EAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACB179C71F1839A700BC3EAE = {
+			isa = PBXGroup;
+			children = (
+				ACB179D21F1839A700BC3EAE /* QuotieAaron2 */,
+				ACB179E71F1839A800BC3EAE /* QuotieAaron2Tests */,
+				ACB179F21F1839A800BC3EAE /* QuotieAaron2UITests */,
+				ACB179D11F1839A700BC3EAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACB179D11F1839A700BC3EAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACB179D01F1839A700BC3EAE /* QuotieAaron2.app */,
+				ACB179E41F1839A800BC3EAE /* QuotieAaron2Tests.xctest */,
+				ACB179EF1F1839A800BC3EAE /* QuotieAaron2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACB179D21F1839A700BC3EAE /* QuotieAaron2 */ = {
+			isa = PBXGroup;
+			children = (
+				ACB179D31F1839A700BC3EAE /* AppDelegate.swift */,
+				ACB179D51F1839A700BC3EAE /* ViewController.swift */,
+				ACB179D71F1839A700BC3EAE /* Main.storyboard */,
+				ACB179DA1F1839A700BC3EAE /* Assets.xcassets */,
+				ACB179DC1F1839A700BC3EAE /* LaunchScreen.storyboard */,
+				ACB179DF1F1839A800BC3EAE /* Info.plist */,
+			);
+			path = QuotieAaron2;
+			sourceTree = "<group>";
+		};
+		ACB179E71F1839A800BC3EAE /* QuotieAaron2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ACB179E81F1839A800BC3EAE /* QuotieAaron2Tests.swift */,
+				ACB179EA1F1839A800BC3EAE /* Info.plist */,
+			);
+			path = QuotieAaron2Tests;
+			sourceTree = "<group>";
+		};
+		ACB179F21F1839A800BC3EAE /* QuotieAaron2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACB179F31F1839A800BC3EAE /* QuotieAaron2UITests.swift */,
+				ACB179F51F1839A800BC3EAE /* Info.plist */,
+			);
+			path = QuotieAaron2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACB179CF1F1839A700BC3EAE /* QuotieAaron2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACB179F81F1839A800BC3EAE /* Build configuration list for PBXNativeTarget "QuotieAaron2" */;
+			buildPhases = (
+				ACB179CC1F1839A700BC3EAE /* Sources */,
+				ACB179CD1F1839A700BC3EAE /* Frameworks */,
+				ACB179CE1F1839A700BC3EAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuotieAaron2;
+			productName = QuotieAaron2;
+			productReference = ACB179D01F1839A700BC3EAE /* QuotieAaron2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACB179E31F1839A800BC3EAE /* QuotieAaron2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACB179FB1F1839A800BC3EAE /* Build configuration list for PBXNativeTarget "QuotieAaron2Tests" */;
+			buildPhases = (
+				ACB179E01F1839A800BC3EAE /* Sources */,
+				ACB179E11F1839A800BC3EAE /* Frameworks */,
+				ACB179E21F1839A800BC3EAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACB179E61F1839A800BC3EAE /* PBXTargetDependency */,
+			);
+			name = QuotieAaron2Tests;
+			productName = QuotieAaron2Tests;
+			productReference = ACB179E41F1839A800BC3EAE /* QuotieAaron2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACB179EE1F1839A800BC3EAE /* QuotieAaron2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACB179FE1F1839A800BC3EAE /* Build configuration list for PBXNativeTarget "QuotieAaron2UITests" */;
+			buildPhases = (
+				ACB179EB1F1839A800BC3EAE /* Sources */,
+				ACB179EC1F1839A800BC3EAE /* Frameworks */,
+				ACB179ED1F1839A800BC3EAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACB179F11F1839A800BC3EAE /* PBXTargetDependency */,
+			);
+			name = QuotieAaron2UITests;
+			productName = QuotieAaron2UITests;
+			productReference = ACB179EF1F1839A800BC3EAE /* QuotieAaron2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACB179C81F1839A700BC3EAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Aaron Lopez";
+				TargetAttributes = {
+					ACB179CF1F1839A700BC3EAE = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					ACB179E31F1839A800BC3EAE = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ACB179CF1F1839A700BC3EAE;
+					};
+					ACB179EE1F1839A800BC3EAE = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ACB179CF1F1839A700BC3EAE;
+					};
+				};
+			};
+			buildConfigurationList = ACB179CB1F1839A700BC3EAE /* Build configuration list for PBXProject "QuotieAaron2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACB179C71F1839A700BC3EAE;
+			productRefGroup = ACB179D11F1839A700BC3EAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACB179CF1F1839A700BC3EAE /* QuotieAaron2 */,
+				ACB179E31F1839A800BC3EAE /* QuotieAaron2Tests */,
+				ACB179EE1F1839A800BC3EAE /* QuotieAaron2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACB179CE1F1839A700BC3EAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB179DE1F1839A700BC3EAE /* LaunchScreen.storyboard in Resources */,
+				ACB179DB1F1839A700BC3EAE /* Assets.xcassets in Resources */,
+				ACB179D91F1839A700BC3EAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACB179E21F1839A800BC3EAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACB179ED1F1839A800BC3EAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACB179CC1F1839A700BC3EAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB179D61F1839A700BC3EAE /* ViewController.swift in Sources */,
+				ACB179D41F1839A700BC3EAE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACB179E01F1839A800BC3EAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB179E91F1839A800BC3EAE /* QuotieAaron2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACB179EB1F1839A800BC3EAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB179F41F1839A800BC3EAE /* QuotieAaron2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACB179E61F1839A800BC3EAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACB179CF1F1839A700BC3EAE /* QuotieAaron2 */;
+			targetProxy = ACB179E51F1839A800BC3EAE /* PBXContainerItemProxy */;
+		};
+		ACB179F11F1839A800BC3EAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACB179CF1F1839A700BC3EAE /* QuotieAaron2 */;
+			targetProxy = ACB179F01F1839A800BC3EAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACB179D71F1839A700BC3EAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACB179D81F1839A700BC3EAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACB179DC1F1839A700BC3EAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACB179DD1F1839A700BC3EAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACB179F61F1839A800BC3EAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACB179F71F1839A800BC3EAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACB179F91F1839A800BC3EAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QuotieAaron2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.QuotieAaron2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ACB179FA1F1839A800BC3EAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QuotieAaron2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.QuotieAaron2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		ACB179FC1F1839A800BC3EAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QuotieAaron2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.QuotieAaron2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuotieAaron2.app/QuotieAaron2";
+			};
+			name = Debug;
+		};
+		ACB179FD1F1839A800BC3EAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QuotieAaron2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.QuotieAaron2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuotieAaron2.app/QuotieAaron2";
+			};
+			name = Release;
+		};
+		ACB179FF1F1839A800BC3EAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = QuotieAaron2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.QuotieAaron2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = QuotieAaron2;
+			};
+			name = Debug;
+		};
+		ACB17A001F1839A800BC3EAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = QuotieAaron2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.QuotieAaron2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = QuotieAaron2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACB179CB1F1839A700BC3EAE /* Build configuration list for PBXProject "QuotieAaron2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACB179F61F1839A800BC3EAE /* Debug */,
+				ACB179F71F1839A800BC3EAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACB179F81F1839A800BC3EAE /* Build configuration list for PBXNativeTarget "QuotieAaron2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACB179F91F1839A800BC3EAE /* Debug */,
+				ACB179FA1F1839A800BC3EAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACB179FB1F1839A800BC3EAE /* Build configuration list for PBXNativeTarget "QuotieAaron2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACB179FC1F1839A800BC3EAE /* Debug */,
+				ACB179FD1F1839A800BC3EAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACB179FE1F1839A800BC3EAE /* Build configuration list for PBXNativeTarget "QuotieAaron2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACB179FF1F1839A800BC3EAE /* Debug */,
+				ACB17A001F1839A800BC3EAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACB179C81F1839A700BC3EAE /* Project object */;
+}
