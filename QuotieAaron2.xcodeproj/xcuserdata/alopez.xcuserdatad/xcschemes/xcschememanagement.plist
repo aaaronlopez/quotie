@@ -4,6 +4,18 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>QuotieAaron2 copy 2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>QuotieAaron2 copy.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>QuotieAaron2.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +24,16 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>AC0D0EFF1F2695F2002D4348</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ACAB4BE91F26AAED0027FFA9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>ACB179CF1F1839A700BC3EAE</key>
 		<dict>
 			<key>primary</key>

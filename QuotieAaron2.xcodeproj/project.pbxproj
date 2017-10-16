@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8732062369FD8ED7D0E74D26 /* Pods_QuotieAaron2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3988D77C90E9A667F87B274D /* Pods_QuotieAaron2.framework */; };
+		8E0BB462D46F82FEEBECB5F1 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		ACAB4BF41F26AAED0027FFA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB179D51F1839A700BC3EAE /* ViewController.swift */; };
+		ACAB4C0E1F26AAED0027FFA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB179D31F1839A700BC3EAE /* AppDelegate.swift */; };
+		ACAB4C201F26AAED0027FFA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB179DC1F1839A700BC3EAE /* LaunchScreen.storyboard */; };
+		ACAB4C211F26AAED0027FFA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACB179DA1F1839A700BC3EAE /* Assets.xcassets */; };
+		ACAB4C221F26AAED0027FFA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB179D71F1839A700BC3EAE /* Main.storyboard */; };
 		ACB179D41F1839A700BC3EAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB179D31F1839A700BC3EAE /* AppDelegate.swift */; };
 		ACB179D61F1839A700BC3EAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB179D51F1839A700BC3EAE /* ViewController.swift */; };
 		ACB179D91F1839A700BC3EAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB179D71F1839A700BC3EAE /* Main.storyboard */; };
@@ -34,6 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3988D77C90E9A667F87B274D /* Pods_QuotieAaron2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuotieAaron2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		494C95C6C1C3CD762608AD8E /* Pods-QuotieAaron2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuotieAaron2.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuotieAaron2/Pods-QuotieAaron2.release.xcconfig"; sourceTree = "<group>"; };
+		7F18D857EEB8C34D71243A45 /* libPods-QuotieAaron2Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QuotieAaron2Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		804259F9D71D3A652BDCC86C /* libPods-QuotieAaron2UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QuotieAaron2UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0D0F3F1F2695F2002D4348 /* QuotieAaron2 copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "QuotieAaron2 copy-Info.plist"; path = "/Users/alopez/Tests/QuotieAaron2/QuotieAaron2 copy-Info.plist"; sourceTree = "<absolute>"; };
+		AC28B16D1F26B19700FF5771 /* QuotieAaron2dev.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QuotieAaron2dev.entitlements; sourceTree = "<group>"; };
+		AC673C511F26B1DB0053234B /* QuotieAaron2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QuotieAaron2.entitlements; sourceTree = "<group>"; };
+		ACAB4C281F26AAED0027FFA9 /* QuotieAaron2dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuotieAaron2dev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACAB4C291F26AAED0027FFA9 /* QuotieAaron2 copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "QuotieAaron2 copy2-Info.plist"; path = "/Users/alopez/Tests/QuotieAaron2/QuotieAaron2 copy2-Info.plist"; sourceTree = "<absolute>"; };
 		ACB179D01F1839A700BC3EAE /* QuotieAaron2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuotieAaron2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB179D31F1839A700BC3EAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACB179D51F1839A700BC3EAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,13 +63,23 @@
 		ACB179EF1F1839A800BC3EAE /* QuotieAaron2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuotieAaron2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB179F31F1839A800BC3EAE /* QuotieAaron2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotieAaron2UITests.swift; sourceTree = "<group>"; };
 		ACB179F51F1839A800BC3EAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB788C1FB5A56839863F61B2 /* Pods-QuotieAaron2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuotieAaron2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuotieAaron2/Pods-QuotieAaron2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		ACAB4C1D1F26AAED0027FFA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ACB179CD1F1839A700BC3EAE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E0BB462D46F82FEEBECB5F1 /* (null) in Frameworks */,
+				8732062369FD8ED7D0E74D26 /* Pods_QuotieAaron2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +100,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6FA4D4DD0BD4EE8801DAB9F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB788C1FB5A56839863F61B2 /* Pods-QuotieAaron2.debug.xcconfig */,
+				494C95C6C1C3CD762608AD8E /* Pods-QuotieAaron2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		77D6952B6F8E56289880A269 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F18D857EEB8C34D71243A45 /* libPods-QuotieAaron2Tests.a */,
+				804259F9D71D3A652BDCC86C /* libPods-QuotieAaron2UITests.a */,
+				3988D77C90E9A667F87B274D /* Pods_QuotieAaron2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ACB179C71F1839A700BC3EAE = {
 			isa = PBXGroup;
 			children = (
+				AC28B16D1F26B19700FF5771 /* QuotieAaron2dev.entitlements */,
 				ACB179D21F1839A700BC3EAE /* QuotieAaron2 */,
 				ACB179E71F1839A800BC3EAE /* QuotieAaron2Tests */,
 				ACB179F21F1839A800BC3EAE /* QuotieAaron2UITests */,
 				ACB179D11F1839A700BC3EAE /* Products */,
+				6FA4D4DD0BD4EE8801DAB9F2 /* Pods */,
+				77D6952B6F8E56289880A269 /* Frameworks */,
+				AC0D0F3F1F2695F2002D4348 /* QuotieAaron2 copy-Info.plist */,
+				ACAB4C291F26AAED0027FFA9 /* QuotieAaron2 copy2-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +140,7 @@
 				ACB179D01F1839A700BC3EAE /* QuotieAaron2.app */,
 				ACB179E41F1839A800BC3EAE /* QuotieAaron2Tests.xctest */,
 				ACB179EF1F1839A800BC3EAE /* QuotieAaron2UITests.xctest */,
+				ACAB4C281F26AAED0027FFA9 /* QuotieAaron2dev.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +148,7 @@
 		ACB179D21F1839A700BC3EAE /* QuotieAaron2 */ = {
 			isa = PBXGroup;
 			children = (
+				AC673C511F26B1DB0053234B /* QuotieAaron2.entitlements */,
 				ACB179D31F1839A700BC3EAE /* AppDelegate.swift */,
 				ACB179D51F1839A700BC3EAE /* ViewController.swift */,
 				ACB179D71F1839A700BC3EAE /* Main.storyboard */,
@@ -128,13 +180,33 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		ACAB4BE91F26AAED0027FFA9 /* QuotieAaron2dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACAB4C251F26AAED0027FFA9 /* Build configuration list for PBXNativeTarget "QuotieAaron2dev" */;
+			buildPhases = (
+				ACAB4BEB1F26AAED0027FFA9 /* Sources */,
+				ACAB4C1D1F26AAED0027FFA9 /* Frameworks */,
+				ACAB4C1F1F26AAED0027FFA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuotieAaron2dev;
+			productName = QuotieAaron2;
+			productReference = ACAB4C281F26AAED0027FFA9 /* QuotieAaron2dev.app */;
+			productType = "com.apple.product-type.application";
+		};
 		ACB179CF1F1839A700BC3EAE /* QuotieAaron2 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = ACB179F81F1839A800BC3EAE /* Build configuration list for PBXNativeTarget "QuotieAaron2" */;
 			buildPhases = (
+				2A2057F083EEA2D594EFB177 /* [CP] Check Pods Manifest.lock */,
 				ACB179CC1F1839A700BC3EAE /* Sources */,
 				ACB179CD1F1839A700BC3EAE /* Frameworks */,
 				ACB179CE1F1839A700BC3EAE /* Resources */,
+				E60A67FCB0645648E0C96B97 /* [CP] Embed Pods Frameworks */,
+				DDAB938E833AF537C868A5EF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,9 +263,24 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Aaron Lopez";
 				TargetAttributes = {
+					ACAB4BE91F26AAED0027FFA9 = {
+						DevelopmentTeam = R63EM248DP;
+						SystemCapabilities = {
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+						};
+					};
 					ACB179CF1F1839A700BC3EAE = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = R63EM248DP;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+						};
 					};
 					ACB179E31F1839A800BC3EAE = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -223,11 +310,22 @@
 				ACB179CF1F1839A700BC3EAE /* QuotieAaron2 */,
 				ACB179E31F1839A800BC3EAE /* QuotieAaron2Tests */,
 				ACB179EE1F1839A800BC3EAE /* QuotieAaron2UITests */,
+				ACAB4BE91F26AAED0027FFA9 /* QuotieAaron2dev */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		ACAB4C1F1F26AAED0027FFA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAB4C201F26AAED0027FFA9 /* LaunchScreen.storyboard in Resources */,
+				ACAB4C211F26AAED0027FFA9 /* Assets.xcassets in Resources */,
+				ACAB4C221F26AAED0027FFA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ACB179CE1F1839A700BC3EAE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -254,7 +352,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2A2057F083EEA2D594EFB177 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DDAB938E833AF537C868A5EF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuotieAaron2/Pods-QuotieAaron2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E60A67FCB0645648E0C96B97 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuotieAaron2/Pods-QuotieAaron2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		ACAB4BEB1F26AAED0027FFA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAB4BF41F26AAED0027FFA9 /* ViewController.swift in Sources */,
+				ACAB4C0E1F26AAED0027FFA9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ACB179CC1F1839A700BC3EAE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -315,6 +470,37 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		ACAB4C261F26AAED0027FFA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = QuotieAaron2dev.entitlements;
+				DEVELOPMENT_TEAM = R63EM248DP;
+				INFOPLIST_FILE = "QuotieAaron2 copy2-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.aaron.quotes-dev";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ACAB4C271F26AAED0027FFA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = QuotieAaron2dev.entitlements;
+				DEVELOPMENT_TEAM = R63EM248DP;
+				INFOPLIST_FILE = "QuotieAaron2 copy2-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.aaron.quotes-dev";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		ACB179F61F1839A800BC3EAE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -412,24 +598,35 @@
 		};
 		ACB179F91F1839A800BC3EAE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB788C1FB5A56839863F61B2 /* Pods-QuotieAaron2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = QuotieAaron2/QuotieAaron2.entitlements;
+				DEVELOPMENT_TEAM = R63EM248DP;
 				INFOPLIST_FILE = QuotieAaron2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = test.QuotieAaron2;
+				PRODUCT_BUNDLE_IDENTIFIER = io.aaron.quotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		ACB179FA1F1839A800BC3EAE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 494C95C6C1C3CD762608AD8E /* Pods-QuotieAaron2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = QuotieAaron2/QuotieAaron2.entitlements;
+				DEVELOPMENT_TEAM = R63EM248DP;
 				INFOPLIST_FILE = QuotieAaron2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = test.QuotieAaron2;
+				PRODUCT_BUNDLE_IDENTIFIER = io.aaron.quotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -491,6 +688,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		ACAB4C251F26AAED0027FFA9 /* Build configuration list for PBXNativeTarget "QuotieAaron2dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAB4C261F26AAED0027FFA9 /* Debug */,
+				ACAB4C271F26AAED0027FFA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		ACB179CB1F1839A700BC3EAE /* Build configuration list for PBXProject "QuotieAaron2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -507,6 +713,7 @@
 				ACB179FA1F1839A800BC3EAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACB179FB1F1839A800BC3EAE /* Build configuration list for PBXNativeTarget "QuotieAaron2Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +722,7 @@
 				ACB179FD1F1839A800BC3EAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACB179FE1F1839A800BC3EAE /* Build configuration list for PBXNativeTarget "QuotieAaron2UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +731,7 @@
 				ACB17A001F1839A800BC3EAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
